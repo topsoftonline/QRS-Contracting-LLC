@@ -3,7 +3,6 @@ import Link from 'next/link'
 import {
   FaAward,
   FaEye,
-  FaHandshake,
   FaLightbulb,
   FaShieldAlt,
   FaUsers,

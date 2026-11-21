@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { cn } from '@/lib/utils'
 
 interface BrandLogoProps {
-  variant?: 'light' | 'dark'
   className?: string
 }
 
