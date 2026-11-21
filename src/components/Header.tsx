@@ -109,7 +109,7 @@ export function Header() {
         }`}
       >
         <div className="container-max px-3 sm:px-4 md:px-6 lg:px-8">
-          <div className="flex items-center justify-between gap-3 h-[64px] sm:h-[72px] md:h-[88px]">
+          <div className="flex items-center justify-between gap-3 h-[72px] sm:h-[78px] md:h-[92px]">
             <BrandLogo />
 
             <nav className="hidden xl:flex flex-1 items-center justify-center gap-0.5 min-w-0">
@@ -170,7 +170,7 @@ export function Header() {
             isMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
-          <div className="flex items-center justify-between px-4 h-[64px] sm:h-[72px] border-b border-white/10">
+          <div className="flex items-center justify-between px-4 h-[72px] sm:h-[78px] border-b border-white/10">
             <p className="font-heading font-bold text-gold text-sm uppercase tracking-wider">Menu</p>
             <button
               type="button"
