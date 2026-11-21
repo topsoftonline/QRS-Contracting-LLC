@@ -34,7 +34,7 @@ const fadeUp = {
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] md:min-h-screen overflow-hidden bg-navy-dark pt-[96px] sm:pt-[110px] md:pt-[128px]">
+    <section className="relative min-h-[100svh] md:min-h-screen overflow-hidden bg-navy-dark pt-[108px] sm:pt-[118px] md:pt-[136px]">
       <Image
         src="/images/banners/main-banner.png"
         alt=""
