@@ -1,56 +1,49 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for working in the **QRS Contracting L.L.C.** website repository.
 
 ## Common Commands
 
 ### Development
-- `npm run dev` - Run the application in development mode with hot-reload via ts-node
-- `npm run build` - Compile TypeScript to JavaScript in the `dist/` directory
-- `npm run type-check` - Check for TypeScript errors without emitting files
-
-### Testing
-- `npm test` - Run all tests once
-- `npm run test:watch` - Run tests in watch mode (re-runs on file changes)
-- `npm run test:coverage` - Run tests with coverage report
+- `npm run dev` — Next.js development server (default http://localhost:3000)
+- `npm run build` — Production build
+- `npm run start` — Serve production build
+- `npm run type-check` — TypeScript check without emit
 
 ### Linting
-- `npm run lint` - Check for code style issues
-- `npm run lint:fix` - Automatically fix code style issues
+- `npm run lint` — ESLint
+- `npm run lint:fix` — Auto-fix lint issues
 
 ## Project Structure
 
 ```
 src/
-├── index.ts          # Application entry point
-├── __tests__/        # Test files (co-located with source)
-└── [feature]/        # Organize code by feature
-    ├── module.ts
-    └── module.test.ts
+├── app/                 # Next.js App Router pages
+├── components/          # UI, sections, header/footer
+└── lib/                 # constants, qrs-data.json, types, utils
 
-dist/                 # Compiled JavaScript output (generated, not in git)
+public/
+├── upload/              # QRS site images & media
+└── images/              # Banners & processed brand assets
 ```
 
 ## Architecture Notes
 
-### Build System
-- **TypeScript**: Strict mode enabled for type safety. Output target is ES2020
-- **Test Framework**: Jest with ts-jest preset for TypeScript support
-- **Linting**: ESLint with TypeScript plugin for consistent code style
+- **Framework**: Next.js 14 App Router + TypeScript (strict)
+- **Styling**: Tailwind CSS — navy/gold QRS brand tokens in `tailwind.config.ts`
+- **Content**: Primary copy and media paths come from `src/lib/constants.ts` + `src/lib/qrs-data.json`
+- **Animations**: Framer Motion (`ScrollReveal`, hero fade-ups)
 
-### Directory Organization
-Code is organized by feature in the `src/` directory. Tests are co-located with source files using the `.test.ts` or `.spec.ts` naming convention and placed in `__tests__/` subdirectories.
+## Brand Rules
 
-### Configuration Files
-- `tsconfig.json` - TypeScript compilation settings
-- `jest.config.js` - Jest testing configuration
-- `.eslintrc.json` - ESLint code style rules
-- `package.json` - Dependencies and npm scripts
+- Company name: **QRS Contracting L.L.C.**
+- Branding, copy, and media must stay QRS-only (no old template firm names)
+- Header logo: gold mark + white secondary text (`/logo-header.png`)
+- Hero uses `/images/banners/main-banner.png` with left navy gradient overlay
 
 ## Development Workflow
 
-1. Make changes in `src/`
-2. Tests run automatically in watch mode during development
-3. Use `npm run lint:fix` to maintain code style before committing
-4. Run `npm run type-check` to verify TypeScript compilation before building
-5. Run `npm run build` to create production artifacts in `dist/`
+1. Edit under `src/`
+2. Prefer `upload/` QRS images for media
+3. Run `npm run type-check` and `npm run lint` before committing
+4. Verify mobile + desktop after layout/header changes
