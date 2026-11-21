@@ -9,7 +9,7 @@ interface PageHeroProps {
 
 export function PageHero({ title, description, image }: PageHeroProps) {
   return (
-    <section className="relative overflow-hidden pt-[108px] sm:pt-[118px] md:pt-[136px]">
+    <section className="relative overflow-hidden bg-navy-dark pt-[108px] sm:pt-[118px] md:pt-[136px]">
       <div className="relative min-h-[260px] sm:min-h-[320px] md:min-h-[400px] lg:min-h-[460px]">
         <div className="absolute inset-0">
           <Image

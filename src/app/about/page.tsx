@@ -14,6 +14,7 @@ import {
   FaCogs,
 } from 'react-icons/fa'
 import { PageHero } from '@/components/PageHero'
+import { OrgChart } from '@/components/OrgChart'
 import { ABOUT_CONTENT, COMPANY_INFO, STATS } from '@/lib/constants'
 import { ScrollReveal } from '@/components/animations/ScrollReveal'
 
@@ -225,6 +226,27 @@ export default function AboutPage() {
               </Link>
             </div>
           </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Organization Chart */}
+      <section className="section-padding bg-white overflow-hidden">
+        <div className="container-max">
+          <ScrollReveal>
+            <div className="text-center max-w-2xl mx-auto mb-10 md:mb-14">
+              <p className="text-gold font-heading font-bold tracking-[0.2em] text-xs uppercase mb-2">
+                Our Structure
+              </p>
+              <h2 className="text-h2 text-navy uppercase">Organization Chart</h2>
+              <div className="gold-accent mx-auto mt-3 mb-4" />
+              <p className="text-navy/70 text-sm md:text-base">
+                A clear leadership and site delivery structure — from management through projects,
+                procurement, CAD and field operations.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <OrgChart />
         </div>
       </section>
 

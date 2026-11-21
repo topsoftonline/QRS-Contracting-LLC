@@ -100,12 +100,10 @@ export function Header() {
         </div>
       </div>
 
-      {/* Main nav */}
+      {/* Main nav — no light border line above page banners */}
       <div
-        className={`transition-smooth border-b ${
-          solid
-            ? 'bg-navy/95 backdrop-blur-md border-white/10'
-            : 'bg-transparent border-transparent'
+        className={`transition-smooth border-b border-transparent ${
+          solid ? 'bg-navy/95 backdrop-blur-md' : 'bg-transparent'
         }`}
       >
         <div className="container-max px-3 sm:px-4 md:px-6 lg:px-8">
