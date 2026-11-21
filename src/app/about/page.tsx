@@ -51,7 +51,7 @@ const DOWNLOAD_CARDS = [
     title: 'Company Profile',
     icon: <FaAward />,
     text: 'Overview of QRS capabilities, experience and project delivery approach.',
-    href: '/company-profile',
+    href: '#',
     image: '/upload/1738686050_3udIjAnK071M5QtnuwHNX6ajU.jpg',
     cta: 'Download PDF',
   },
@@ -287,7 +287,7 @@ export default function AboutPage() {
                 <div className="gold-accent mt-3" />
               </div>
               <Link
-                href="/company-profile"
+                href="#"
                 className="inline-flex items-center gap-2 text-navy font-heading font-bold text-xs uppercase tracking-wider hover:text-gold"
               >
                 <FaDownload /> Full Company Profile

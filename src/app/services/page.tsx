@@ -11,7 +11,7 @@ import {
   FaHardHat,
 } from 'react-icons/fa'
 import { PageHero } from '@/components/PageHero'
-import { SERVICES, ABOUT_CONTENT, COMPANY_INFO } from '@/lib/constants'
+import { SERVICES, ABOUT_CONTENT } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Services',
@@ -35,7 +35,8 @@ export default function ServicesPage() {
       <PageHero
         title="Our Services"
         description={ABOUT_CONTENT.whatWeDo}
-        image={COMPANY_INFO.serviceImage}
+        image="/upload/1739271906_tMS9e7fBt9JUSdRFSugLThxTN.png"
+        imagePosition="center 78%"
       />
 
       <section className="section-padding bg-white">

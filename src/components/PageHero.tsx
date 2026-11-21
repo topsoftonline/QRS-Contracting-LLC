@@ -5,9 +5,16 @@ interface PageHeroProps {
   title: string
   description?: string
   image: string
+  /** CSS object-position, e.g. "center 65%" to show site work instead of sky */
+  imagePosition?: string
 }
 
-export function PageHero({ title, description, image }: PageHeroProps) {
+export function PageHero({
+  title,
+  description,
+  image,
+  imagePosition = 'center 72%',
+}: PageHeroProps) {
   return (
     <section className="relative overflow-hidden bg-navy-dark pt-[108px] sm:pt-[118px] md:pt-[136px]">
       <div className="relative min-h-[260px] sm:min-h-[320px] md:min-h-[400px] lg:min-h-[460px]">
@@ -17,7 +24,8 @@ export function PageHero({ title, description, image }: PageHeroProps) {
             alt={title}
             fill
             priority
-            className="object-cover object-center md:object-[center_30%]"
+            className="object-cover"
+            style={{ objectPosition: imagePosition }}
             sizes="100vw"
           />
 
@@ -29,9 +37,7 @@ export function PageHero({ title, description, image }: PageHeroProps) {
                 'linear-gradient(90deg, #06182a 0%, #0B2A45 22%, rgba(11,42,69,0.88) 38%, rgba(11,42,69,0.55) 55%, rgba(11,42,69,0.22) 72%, transparent 88%)',
             }}
           />
-          {/* Soft top/bottom depth — keeps image visible */}
           <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-navy-dark/50 via-transparent to-navy-dark/25" />
-          {/* Extra left readability on very small screens only */}
           <div
             className="absolute inset-0 pointer-events-none sm:hidden"
             style={{
