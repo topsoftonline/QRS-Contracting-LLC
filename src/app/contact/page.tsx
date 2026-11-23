@@ -15,8 +15,8 @@ export default function ContactPage() {
       <PageHero
         title="Contact Us"
         description="You will be answered — reach QRS Contracting for project enquiries or emergency support."
-        image="/upload/1780040785_bUaqrwwIZTBr0iWVP3hYm23gC.jpeg"
-        imagePosition="center 78%"
+        image="/upload/1.jpeg"
+        imagePosition="center 55%"
       />
 
       <section className="section-padding bg-white">

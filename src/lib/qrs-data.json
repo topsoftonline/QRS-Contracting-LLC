@@ -8,10 +8,10 @@
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462317.1692103959!2d55.55804058908689!3d25.140664108890164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43e2a4f36093%3A0x2c8d8ce9d6849a5b!2sEmirates%20Post%20PO%20Box%20Shelter%20-%20Dubai%20Central%20Building!5e0!3m2!1sar!2seg!4v1738690582028!5m2!1sar!2seg",
     "logo": "/upload/1740423670_dBByL3u5AvwpbkSY2VqSBPvf9.png",
     "footerLogo": "/upload/1740425817_9UOO9WFFJ6ftrSWAp5Nd8i3Qe.png",
-    "aboutImage": "/upload/1738690181_e2tfyq93VAc4xOt9eEb1l3t8Y.png",
-    "homeAboutImage": "/upload/1738686050_3udIjAnK071M5QtnuwHNX6ajU.jpg",
-    "contactImage": "/upload/1780040785_bUaqrwwIZTBr0iWVP3hYm23gC.jpeg",
-    "serviceImage": "/upload/1739271906_tMS9e7fBt9JUSdRFSugLThxTN.png",
+    "aboutImage": "/upload/3.jpeg",
+    "homeAboutImage": "/upload/4.jpeg",
+    "contactImage": "/upload/1.jpeg",
+    "serviceImage": "/upload/2.jpeg",
     "blogImage": "/upload/1738694556_NnjG8LB2vWUPA4GKoyM9XmJ8o.jpg"
   },
   "colors": {
@@ -52,12 +52,12 @@
   ],
   "sliders": [
     {
-      "image": "/upload/1739271906_tMS9e7fBt9JUSdRFSugLThxTN.png",
+      "image": "/upload/4.jpeg",
       "title": "",
       "description": ""
     },
     {
-      "image": "/upload/1739271944_cvwxvdp84o8Sr94QWB6zCLD32.jpg",
+      "image": "/upload/1.jpeg",
       "title": "",
       "description": ""
     },
@@ -67,7 +67,7 @@
       "description": "\"24/7 Emergency Response for Water & Irrigation Networks\""
     },
     {
-      "image": "/upload/1780040785_bUaqrwwIZTBr0iWVP3hYm23gC.jpeg",
+      "image": "/upload/2.jpeg",
       "title": "\"Leading Infrastructure & Utility Solutions in Dubai\"",
       "description": "\"Leading Infrastructure & Utility Solutions in Dubai\""
     }

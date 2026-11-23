@@ -35,8 +35,8 @@ export default function ServicesPage() {
       <PageHero
         title="Our Services"
         description={ABOUT_CONTENT.whatWeDo}
-        image="/upload/1739271906_tMS9e7fBt9JUSdRFSugLThxTN.png"
-        imagePosition="center 78%"
+        image="/upload/2.jpeg"
+        imagePosition="center 40%"
       />
 
       <section className="section-padding bg-white">

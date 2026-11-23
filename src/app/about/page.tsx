@@ -52,7 +52,7 @@ const DOWNLOAD_CARDS = [
     icon: <FaAward />,
     text: 'Overview of QRS capabilities, experience and project delivery approach.',
     href: '#',
-    image: '/upload/1738686050_3udIjAnK071M5QtnuwHNX6ajU.jpg',
+    image: '/upload/4.jpeg',
     cta: 'Download PDF',
   },
   {
@@ -60,7 +60,7 @@ const DOWNLOAD_CARDS = [
     icon: <FaHardHat />,
     text: ABOUT_CONTENT.hse.slice(0, 110) + '…',
     href: '/sustainability',
-    image: '/upload/1739271906_tMS9e7fBt9JUSdRFSugLThxTN.png',
+    image: '/upload/1.jpeg',
     cta: 'Learn More',
   },
   {
@@ -76,7 +76,7 @@ const DOWNLOAD_CARDS = [
     icon: <FaShieldAlt />,
     text: ABOUT_CONTENT.quality.description.slice(0, 110) + '…',
     href: '/company-profile',
-    image: '/upload/1780040785_bUaqrwwIZTBr0iWVP3hYm23gC.jpeg',
+    image: '/upload/3.jpeg',
     cta: 'View Profile',
   },
 ]
@@ -87,7 +87,8 @@ export default function AboutPage() {
       <PageHero
         title="About Us"
         description="QRS Contracting L.L.C. is a leading infrastructure solutions provider in the UAE specializing in irrigation, water, sewerage, and drainage networks."
-        image="/upload/1780040785_bUaqrwwIZTBr0iWVP3hYm23gC.jpeg"
+        image="/upload/4.jpeg"
+        imagePosition="center 45%"
       />
 
       {/* Who We Are */}

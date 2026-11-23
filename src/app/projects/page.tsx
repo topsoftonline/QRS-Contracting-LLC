@@ -21,7 +21,8 @@ export default function ProjectsPage() {
       <PageHero
         title="Our Projects"
         description="Delivering quality infrastructure works across Dubai and the UAE — from network diversions and valve replacements to emergency repairs."
-        image="/upload/1739271906_tMS9e7fBt9JUSdRFSugLThxTN.png"
+        image="/upload/4.jpeg"
+        imagePosition="center 45%"
       />
 
       <section className="section-padding bg-white">
