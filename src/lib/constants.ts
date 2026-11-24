@@ -185,14 +185,14 @@ const SERVICE_META: Record<
     icon: 'faucet',
     description:
       'Potable water pipeline construction, valve replacement, pressure testing and network rehabilitation to municipality standards.',
-    image: '/upload/2.jpeg',
+    image: '/upload/1739271944_cvwxvdp84o8Sr94QWB6zCLD32.jpg',
   },
   'Sewerage & Drainage Networks': {
     slug: 'sewerage-drainage-networks',
     icon: 'gauge',
     description:
       'Sewerage and stormwater drainage networks including pipeline laying, manholes, rehabilitation and emergency repair works.',
-    image: '/upload/3.jpeg',
+    image: '/upload/1780040785_bUaqrwwIZTBr0iWVP3hYm23gC.jpeg',
   },
   'Emergency Repairs & Shutdown Works': {
     slug: 'emergency-repairs',
@@ -206,14 +206,14 @@ const SERVICE_META: Record<
     icon: 'circuit',
     description:
       'Integration of SCADA, RTU and flow meter systems for real-time monitoring, control and performance of utility networks.',
-    image: '/upload/3.jpeg',
+    image: '/upload/1738686050_3udIjAnK071M5QtnuwHNX6ajU.jpg',
   },
   'Civil Infrastructure Works': {
     slug: 'civil-infrastructure',
     icon: 'hardhat',
     description:
       'Civil works supporting utility infrastructure — chambers, formwork, excavation, reinstatement and associated site construction.',
-    image: '/upload/4.jpeg',
+    image: '/upload/1738694556_NnjG8LB2vWUPA4GKoyM9XmJ8o.jpg',
   },
 }
 
@@ -258,13 +258,13 @@ export const FEATURED_PROJECTS = [
   {
     id: 'p2',
     title: 'DN700 Butterfly Valve Replacement',
-    image: '/upload/2.jpeg',
+    image: '/upload/1739271944_cvwxvdp84o8Sr94QWB6zCLD32.jpg',
     category: 'Potable Water',
   },
   {
     id: 'p3',
     title: 'Irrigation Network Upgrade Works',
-    image: '/upload/3.jpeg',
+    image: '/upload/1738693712_gXB6Bw7faJdQPZA2VQ2VBxsFK.jpg',
     category: 'Irrigation',
   },
   {

@@ -5,10 +5,17 @@ import { FEATURED_PROJECTS, PROJECTS } from '@/lib/constants'
 import { ScrollReveal } from '@/components/animations/ScrollReveal'
 
 export function Portfolio() {
+  const seen = new Set<string>()
   const cards = [
     ...FEATURED_PROJECTS,
-    ...PROJECTS.filter((p) => p.id.startsWith('prod-')).slice(0, 2),
-  ].slice(0, 6)
+    ...PROJECTS.filter((p) => p.id.startsWith('prod-')),
+  ]
+    .filter((p) => {
+      if (seen.has(p.image)) return false
+      seen.add(p.image)
+      return true
+    })
+    .slice(0, 6)
 
   return (
     <section className="section-padding bg-white" id="projects">

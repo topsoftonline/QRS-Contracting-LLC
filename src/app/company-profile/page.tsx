@@ -16,8 +16,8 @@ export default function CompanyProfilePage() {
       <PageHero
         title="Company Profile"
         description="Learn more about QRS Contracting L.L.C. — our capabilities, values and infrastructure expertise across the UAE."
-        image="/upload/3.jpeg"
-        imagePosition="center 40%"
+        image="/upload/4.jpeg"
+        imagePosition="center 45%"
       />
 
       <section className="section-padding bg-white">
